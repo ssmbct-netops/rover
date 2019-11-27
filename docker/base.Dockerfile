@@ -14,5 +14,5 @@ RUN echo "Installing terraform ${versionTerraform}..." \
 
 WORKDIR /tf
 
-COPY rover/scripts/launchpad.sh .
-COPY rover/scripts/functions.sh .
+COPY scripts/launchpad.sh .
+COPY scripts/functions.sh .
